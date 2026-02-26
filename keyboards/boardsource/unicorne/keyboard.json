@@ -7,7 +7,7 @@
     "features": {
         "audio": false,
         "bootmagic": true,
-        "encoder": true,
+        "encoder": false,
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
