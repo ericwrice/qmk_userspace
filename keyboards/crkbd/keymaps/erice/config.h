@@ -29,13 +29,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 //#define QUICK_TAP_TERM 0
-#define TAPPING_TERM 150
+#define TAPPING_TERM 160
 #define TAP_CODE_DELAY 5
 #define TAP_HOLD_CAPS_DELAY 0
 //#define PERMISSIVE_HOLD
 #define BILATERAL_COMBINATIONS
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define DYNAMIC_MACRO_SIZE 128
+
+#define FLOW_TAP_TERM 120
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_SPLIT
